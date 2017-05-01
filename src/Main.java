@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setScene(new Scene(new VBox(new Text("Hello Takasila")),300,100));
+        primaryStage.setScene(new Scene(new VBox(new Text("Hello ")),300,100));
         primaryStage.show();
     }
 }
